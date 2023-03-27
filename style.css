@@ -1,0 +1,30 @@
+#parent {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow-x: auto;
+	width: 100%;
+	max-width: 100%;
+}
+
+#field {
+	display: inline-block;
+	margin: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	max-width: 100%;
+	border-collapse: collapse;
+}
+
+#field td {
+	padding: 1rem;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.active {
+	background: red;
+}
